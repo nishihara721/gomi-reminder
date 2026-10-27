@@ -1,0 +1,25 @@
+# 依存パッケージ
+node_modules/
+
+# ビルド結果
+functions/lib/
+web/.next/
+web/out/
+*.tsbuildinfo
+next-env.d.ts
+
+# 環境変数（公開しない）
+.env
+.env.*
+!.env.local.example
+
+# Firebase のログ・キャッシュ
+.firebase/
+*-debug.log
+npm-debug.log*
+
+# Vercel
+.vercel
+
+# Mac
+.DS_Store
